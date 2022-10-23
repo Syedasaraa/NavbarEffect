@@ -5,7 +5,7 @@ const transition = document.querySelector('.trans');
 const colors = ["blue", "chartreuse", "chocolate", "cadetblue"];
 
 const tresh = {
-    treshold: 0.9
+    treshold: 0.6
 }
 
 const observer = new IntersectionObserver(navScroll, tresh);
